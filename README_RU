@@ -1,0 +1,17 @@
+= Felix - система синхронизации конфигов
+
+Это небольшая система для синхронизации пользовательских конфигурационных
+файлов в линуксе и mac os.
+
+== Quick start
+
+ 1. Fork https://github.com/bessarabov/felix
+ 2. $ git clone git@github.com:yourname/felix.git
+ 3. Добавить файлы в ~/felix/tilde/
+ 4. $ felix/create_symlinks.pl
+
+== Презентация
+
+Об этой системе я рассказывал на конференции FriendFeedFallFest 8 октября 2011.
+
+Доклад: http://www.slideshare.net/bessarabov/felix-9608901/
